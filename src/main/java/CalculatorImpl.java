@@ -1,4 +1,9 @@
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 public class CalculatorImpl implements Calculator {
+    private static final Log log = LogFactory.getLog(CalculatorImpl.class);
+
     @Override
     public int add(int value1, int value2) {
         return value1 + value2;
