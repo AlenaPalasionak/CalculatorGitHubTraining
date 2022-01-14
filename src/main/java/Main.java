@@ -24,13 +24,12 @@ public class Main {
         }
         System.out.println("All ois bad!!!!");
 
-/*
-        try {
-            new CalculatorImpl().divide(0, 0);
-        } catch (DivisionException e) {
-            e.printStackTrace();
-        }
+       // try {
+       //     new CalculatorImpl().divide(0, 0);
+       // } catch (DivisionException e) {
+       //     e.printStackTrace();
+       // }
 
- */
+ 
     }
 }
